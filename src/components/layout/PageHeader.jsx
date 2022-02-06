@@ -20,7 +20,7 @@ function PageHeader({ title, center }) {
 }
 
 PageHeader.defaultProps = {
-  center: 'Github Finder',
+  center: true,
 }
 
 PageHeader.propTypes = {
