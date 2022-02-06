@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types'
+
 function ColumnOne({ row1, row2, row3 }) {
   return (
     <div className="card shadow-lg">
@@ -8,6 +10,12 @@ function ColumnOne({ row1, row2, row3 }) {
       </div>
     </div>
   )
+}
+
+ColumnOne.propTypes = {
+  row1: PropTypes.object,
+  row2: PropTypes.string,
+  row3: PropTypes.string,
 }
 
 export default ColumnOne

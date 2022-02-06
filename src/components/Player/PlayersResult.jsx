@@ -50,20 +50,21 @@ function PlayerResult() {
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3">
+              {console.log(player.legends.selected.LegendName)}
               <ColumnOne
                 row1={<FaRegUserCircle className="mr-4 text-3xl" />}
                 row2={'Current Legend'}
-                row3={player.legends.selected.LegendName}
+                row3={player.legends.selected.LegendName.toString()}
               />
               <ColumnOne
                 row1={<FaRegChartBar className="mr-4 text-3xl" />}
                 row2={'Level'}
-                row3={player.global.level}
+                row3={player.global.level.toString()}
               />
               <ColumnOne
                 row1={<FaWindows className="mr-4 text-3xl" />}
                 row2={'Platform'}
-                row3={<> {player.global.platform}</>}
+                row3={player.global.platform}
               />
             </div>
             <div className="grid grid-cols-1 mt-6 mb-6 text-center text-4xl">
@@ -76,17 +77,17 @@ function PlayerResult() {
               <ColumnOne
                 row1={<RankImage img={player.global.rank.rankImg} />}
                 row2={'Rank'}
-                row3={player.global.rank.rankName}
+                row3={player.global.rank.rankName.toString()}
               />
               <ColumnOne
                 row1={<RankImage img={player.global.rank.rankImg} />}
                 row2={'Rank Division'}
-                row3={player.global.rank.rankDiv}
+                row3={player.global.rank.rankDiv.toString()}
               />
               <ColumnOne
                 row1={<RankImage img={player.global.rank.rankImg} />}
                 row2={'Rank Score'}
-                row3={player.global.rank.rankScore}
+                row3={player.global.rank.rankScore.toString()}
               />
             </div>
             <div className="grid grid-cols-1 "></div>
