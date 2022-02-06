@@ -1,10 +1,10 @@
-function PageHeader({ title }) {
+import PropTypes from 'prop-types'
+
+function PageHeader({ title, center }) {
   return (
-    <div>
-      <h1 className="text-3xl font-bold mb-2 sm:mb-5 mt-5 text-center">
-        {title}
-      </h1>
-      <p className="text-center">
+    <div className={` ${center && 'text-center'}`}>
+      <h1 className={`text-3xl font-bold mb-2 sm:mb-5 mt-5 `}>{title}</h1>
+      <p>
         Data from{' '}
         <a
           href="https://apexlegendsstatus.com"
@@ -17,6 +17,15 @@ function PageHeader({ title }) {
       </p>
     </div>
   )
+}
+
+PageHeader.defaultProps = {
+  center: 'Github Finder',
+}
+
+PageHeader.propTypes = {
+  title: PropTypes.string.isRequired,
+  center: PropTypes.bool.isRequired,
 }
 
 export default PageHeader
