@@ -8,6 +8,8 @@ import { ApexProvider } from './context/apex/ApexContext'
 import NotFound from './pages/NotFound'
 import Players from './pages/Players'
 import { AlertProvider } from './context/alert/AlertContext'
+import PlayerResult from './components/Player/PlayersResult'
+import MapRotation from './pages/MapRotation'
 
 function App() {
   return (
@@ -22,8 +24,10 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/servers" element={<Servers />} />
                 <Route path="/playersearch" element={<Players />} />
+                <Route path="/maprotation" element={<MapRotation />} />
                 <Route path="/notfound" element={<NotFound />} />
                 <Route path="/*" element={<NotFound />} />
+                <Route path="/playersearch/:login" element={<PlayerResult />} />
               </Routes>
             </main>
             <Footer />

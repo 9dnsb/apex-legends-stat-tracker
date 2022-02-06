@@ -4,6 +4,7 @@ import { useContext, useEffect } from 'react'
 import Spinner from '../components/layout/Spinner'
 import ServerTypeSection from '../components/servers/ServerTypeSection'
 import NotFound from './NotFound'
+import PageHeader from '../components/layout/PageHeader'
 
 function Servers() {
   const { dispatch, servers, loading } = useContext(ApexContext)
@@ -18,18 +19,10 @@ function Servers() {
     getServerStatus()
   }, [dispatch])
 
-  const header = (
-    <div>
-      <h1 className="text-3xl font-bold mb-5 mt-5 text-center">
-        Apex Server Stats
-      </h1>
-    </div>
-  )
-
   if (loading || Object.keys(servers).length === 0) {
     return (
       <>
-        {header}
+        <PageHeader title={'Apex Server'} />
         <Spinner />
       </>
     )
@@ -38,7 +31,7 @@ function Servers() {
   } else {
     return (
       <>
-        {header}
+        <PageHeader title={'Apex Server'} />
         <ServerTypeSection />
       </>
     )

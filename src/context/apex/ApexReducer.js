@@ -17,10 +17,22 @@ const ApexReducer = (state, action) => {
         ...state,
         loading: true,
       }
+    case 'SET_PLAYER':
+      return {
+        ...state,
+        currentPlayer: action.payload,
+      }
     case 'CLEAR_PLAYER':
       return {
         ...state,
         player: {},
+        currentPlayer: '',
+      }
+    case 'GET_MAP':
+      return {
+        ...state,
+        mapRotation: action.payload,
+        loading: false,
       }
     default:
       return state

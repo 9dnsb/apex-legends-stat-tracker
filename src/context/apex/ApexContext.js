@@ -6,7 +6,9 @@ const ApexContext = createContext()
 export const ApexProvider = ({ children }) => {
   const initialState = {
     servers: {},
+    currentPlayer: '',
     player: {},
+    mapRotation: {},
     loading: false,
   }
 

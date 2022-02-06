@@ -1,8 +1,7 @@
 import { GiFootprint } from 'react-icons/gi'
+import { footerYear } from '../../js/footerYear'
 
 function Footer() {
-  const footerYear = new Date().getFullYear()
-
   return (
     <footer className="footer p-10 bg-neutral  footer-center">
       <div>
