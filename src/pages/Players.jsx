@@ -28,7 +28,7 @@ function Players() {
 
   return (
     <>
-      <PageHeader title={'Apex Player Search'} />
+      <PageHeader title={'Apex Player Search'} center={false} />
       <div className="grid grid-cols-1 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 mb-8 gap-8 mt-4">
         <div>
           <form onSubmit={handleSubmit}>
