@@ -1,5 +1,4 @@
 import { useContext, useEffect } from 'react'
-
 import NotFound from '../pages/NotFound'
 import Spinner from '../components/layout/Spinner'
 import { searchMap } from '../context/apex/ApexActions'
@@ -28,8 +27,7 @@ function MapRotation() {
     console.log(mapRotation)
     return (
       <>
-        {' '}
-        <PageHeader title={'Map Rotation'} />{' '}
+        <PageHeader title={'Map Rotation'} />
         <p>Current Map: {mapRotation.battle_royale.current.map}</p>
       </>
     )
