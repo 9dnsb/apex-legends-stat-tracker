@@ -4,7 +4,7 @@ function Home() {
   return (
     <>
       <div className="mt-5">
-        <h1 className="text-6xl mb-4">{process.env.REACT_APP_TITLE}</h1>
+        <h1 className="text-4xl mb-4">{process.env.REACT_APP_TITLE}</h1>
       </div>
 
       <p className="mb-4 text-2xl font-light mt-5">

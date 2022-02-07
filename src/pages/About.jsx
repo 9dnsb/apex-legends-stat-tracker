@@ -1,7 +1,7 @@
 function About() {
   return (
     <>
-      <h1 className="text-6xl mb-4 mt-5">About</h1>
+      <h1 className="text-4xl mb-4 mt-5">About</h1>
       <p className="mb-4 text-2xl font-light">
         This project is made using React, Tailwind, and daisyUI. It uses Axios
         to make network calls to an{' '}
@@ -24,7 +24,7 @@ function About() {
           target="_blank"
           rel="noreferrer"
         >
-          my Github repository
+          my Github repository{'.'}
         </a>
       </p>
     </>
