@@ -36,14 +36,14 @@ function Players() {
               <div className="relative">
                 <input
                   type="text"
-                  className="w-full pr-40 bg-gray-200 input input-lg text-black"
-                  placeholder="Enter Player Name"
+                  className="w-full pr-10 bg-gray-200 input input-lg text-black"
+                  placeholder="Enter Player"
                   value={text}
                   onChange={handleChange}
                 />
                 <button
                   type="submit"
-                  className="absolute top-0 right-0 rounded-l-none w-20  btn btn-lg"
+                  className="absolute top-0 right-0 rounded-l-none w-15 sm:20  btn btn-lg"
                 >
                   Go
                 </button>
