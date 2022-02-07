@@ -28,7 +28,25 @@ function MapRotation() {
     return (
       <>
         <PageHeader title={'Map Rotation'} />
-        <p>Current Map: {mapRotation.battle_royale.current.map}</p>
+        <div className="mt-4 grid sm:grid-rows-4 sm:grid-flow-col gap-4">
+          <div className="sm:col-span-2 place-self-center sm:text-2xl"></div>
+          <div className="sm:row-span-1 sm:col-span-2 place-self-center sm:text-2xl">
+            <p>Current Map: {mapRotation.battle_royale.current.map}</p>
+          </div>
+          <div className="sm:col-span-2 place-self-center sm:text-2xl">
+            <p>
+              Remaining Time: {mapRotation.battle_royale.current.remainingTimer}
+            </p>
+          </div>
+
+          <div className="sm:row-span-4 sm:col-span-1 place-self-center">
+            <img
+              src={mapRotation.battle_royale.current.asset}
+              alt=""
+              className="sm:w-9/12 sm:mx-auto sm:align-items-center"
+            />
+          </div>
+        </div>
       </>
     )
   }
