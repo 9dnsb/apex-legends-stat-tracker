@@ -3,8 +3,8 @@ function About() {
     <>
       <h1 className="text-6xl mb-4 mt-5">About</h1>
       <p className="mb-4 text-2xl font-light">
-        This project is made using React. It uses Axios to make network calls to
-        an{' '}
+        This project is made using React, Tailwind, and daisyUI. It uses Axios
+        to make network calls to an{' '}
         <a
           href="https://apexlegendsapi.com/index.php"
           className="text-accent"
