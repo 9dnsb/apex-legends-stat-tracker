@@ -68,10 +68,10 @@ function PlayerResult() {
               />
             </div>
             <div className="grid grid-cols-1 mt-6 mb-6 text-center text-4xl">
-              <p>
+              <h3>
                 Rank for{' '}
                 {changeSeasonSplitString(player.global.rank.rankedSeason)}
-              </p>
+              </h3>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3">
               <ColumnOne
