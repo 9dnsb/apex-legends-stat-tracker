@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 function PageHeader({ title, center }) {
   return (
     <div className={` ${center && 'text-center'}`}>
-      <h1 className={`text-3xl font-bold mb-2 sm:mb-5 mt-5 `}>{title}</h1>
+      <h1 className={`mb-5 text-3xl font-bold mb-2 sm:mb-5 mt-5 `}>{title}</h1>
       <p>
         Data from{' '}
         <a

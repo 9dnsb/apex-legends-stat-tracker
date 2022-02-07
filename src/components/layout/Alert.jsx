@@ -6,7 +6,7 @@ function Alert() {
 
   return (
     alert !== null && (
-      <div className="flex items-start mb-4 space-x-2">
+      <div className="flex items-start mb-5 space-x-2 mt-4">
         {alert.type === 'error' && (
           <svg
             className="w-6 h-6 flex-none mt-0.5"
