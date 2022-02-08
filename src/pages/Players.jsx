@@ -36,7 +36,7 @@ function Players() {
               <div className="relative">
                 <input
                   type="text"
-                  className="w-full pr-10 bg-gray-200 input input-lg text-black"
+                  className="w-full pr-24 bg-gray-200 input input-lg text-black"
                   placeholder="Enter Player"
                   value={text}
                   onChange={handleChange}
