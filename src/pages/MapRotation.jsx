@@ -31,12 +31,12 @@ function MapRotation() {
         <div className="mt-4 grid sm:grid-rows-4 sm:grid-flow-col gap-4">
           <div className="sm:col-span-2 place-self-center sm:text-2xl"></div>
           <div className="sm:row-span-1 sm:col-span-2 place-self-center sm:text-2xl">
-            <p>Current Map: {mapRotation.battle_royale.current.map}</p>
+            <h2>Current Mah2: {mapRotation.battle_royale.current.map}</h2>
           </div>
           <div className="sm:col-span-2 place-self-center sm:text-2xl">
-            <p>
+            <h2>
               Remaining Time: {mapRotation.battle_royale.current.remainingTimer}
-            </p>
+            </h2>
           </div>
 
           <div className="sm:row-span-4 sm:col-span-1 place-self-center">
