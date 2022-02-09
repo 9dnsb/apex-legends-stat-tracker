@@ -5,7 +5,8 @@
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
   <a href="https://lgtm.com/projects/g/9dnsb/apex-legends-stat-tracker/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/9dnsb/apex-legends-stat-tracker.svg?logo=lgtm&logoWidth=18"/></a>
-<a href="https://lgtm.com/projects/g/9dnsb/apex-legends-stat-tracker/alerts/"><img alt="Total alerts" src="https://img.shields.io/lgtm/alerts/g/9dnsb/apex-legends-stat-tracker.svg?logo=lgtm&logoWidth=18"/></a>
+  <a href="https://lgtm.com/projects/g/9dnsb/apex-legends-stat-tracker/context:javascript"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/9dnsb/apex-legends-stat-tracker.svg?logo=lgtm&logoWidth=18"/></a>
+
 </p>
 
 > Website that displays stats and info for the game Apex Legends. Users can access up to date game info and player stats
