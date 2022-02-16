@@ -32,7 +32,7 @@ function PlayerResult() {
   ) {
     return <NotFound notFoundText={'Request failed. Player not found'} />
   } else {
-    console.log(player)
+    // console.log(player)
     return (
       <>
         {!checkEmptyObject(player) && (
@@ -50,7 +50,6 @@ function PlayerResult() {
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 md:gap-3">
-              {console.log(player.legends.selected.LegendName)}
               <ColumnOne
                 row1={<FaRegUserCircle className="mr-4 text-3xl" />}
                 row2={'Current Legend'}
