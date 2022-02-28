@@ -1,3 +1,5 @@
+import { accessibilityText } from 'npmtestdb99'
+
 function About() {
   return (
     <>
@@ -27,6 +29,7 @@ function About() {
           my Github repository{'.'}
         </a>
       </p>
+      <p className="mb-4 text-2xl font-light">{accessibilityText}</p>
     </>
   )
 }
