@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@headlessui/react": "^1.6.5",
+    "@headlessui/react": "^1.6.6",
     "@heroicons/react": "^1.0.6",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^14.2.1",
+    "@testing-library/user-event": "^14.2.6",
     "axios": "^0.27.2",
-    "daisyui": "^2.18.1",
+    "daisyui": "^2.18.2",
     "npmtestdb99": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -45,6 +45,6 @@
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "postcss": "^8.4.14",
-    "tailwindcss": "^3.1.4"
+    "tailwindcss": "^3.1.6"
   }
 }
