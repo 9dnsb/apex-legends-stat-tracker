@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.6.6",
-    "@heroicons/react": "^2.0.10",
+    "@heroicons/react": "^2.0.11",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.4.3",
     "axios": "^0.27.2",
-    "daisyui": "^2.24.0",
+    "daisyui": "^2.24.2",
     "npmtestdb99": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -43,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.8",
+    "autoprefixer": "^10.4.9",
     "postcss": "^8.4.16",
     "tailwindcss": "^3.1.8"
   }
