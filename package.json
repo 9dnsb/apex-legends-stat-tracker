@@ -8,15 +8,15 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
-    "axios": "^1.2.2",
-    "daisyui": "^2.46.0",
+    "axios": "^1.2.4",
+    "daisyui": "^2.48.0",
     "npmtestdb99": "^1.0.8",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.6.1",
+    "react-router-dom": "^6.7.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^3.1.0"
+    "web-vitals": "^3.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.20",
+    "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
   }
 }
